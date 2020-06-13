@@ -1,0 +1,6 @@
+/Users/jasonnugraha/Study/Swinburne/Project/PointOfSales/PointOfSales/bin/Debug/PointOfSales.exe
+/Users/jasonnugraha/Study/Swinburne/Project/PointOfSales/PointOfSales/bin/Debug/PointOfSales.pdb
+/Users/jasonnugraha/Study/Swinburne/Project/PointOfSales/PointOfSales/obj/Debug/PointOfSales.csprojAssemblyReference.cache
+/Users/jasonnugraha/Study/Swinburne/Project/PointOfSales/PointOfSales/obj/Debug/PointOfSales.csproj.CoreCompileInputs.cache
+/Users/jasonnugraha/Study/Swinburne/Project/PointOfSales/PointOfSales/obj/Debug/PointOfSales.exe
+/Users/jasonnugraha/Study/Swinburne/Project/PointOfSales/PointOfSales/obj/Debug/PointOfSales.pdb

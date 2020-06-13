@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{E87AED65-6D98-4DD9-B4D4-53BF034C8DC8}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="PointOfSales/Selling.cs">
+    <Files>
+      <File FileName="PointOfSales/Payment.cs" Line="12" Column="1" />
+      <File FileName="PointOfSales/Card.cs" />
+      <File FileName="PointOfSales/Selling.cs" Line="13" Column="1" />
+      <File FileName="PointOfSales/Transacation.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="PointOfSales" expanded="True">
+            <Node name="PointOfSales" expanded="True">
+              <Node name="Selling.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|anycpu" />
+  <MonoDevelop.Ide.ItemProperties.PointOfSales PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

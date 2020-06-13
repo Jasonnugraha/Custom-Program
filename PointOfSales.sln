@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PointOfSales", "PointOfSales\PointOfSales.csproj", "{E87AED65-6D98-4DD9-B4D4-53BF034C8DC8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|anycpu = Debug|anycpu
+		Release|anycpu = Release|anycpu
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E87AED65-6D98-4DD9-B4D4-53BF034C8DC8}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{E87AED65-6D98-4DD9-B4D4-53BF034C8DC8}.Debug|anycpu.Build.0 = Debug|anycpu
+		{E87AED65-6D98-4DD9-B4D4-53BF034C8DC8}.Release|anycpu.ActiveCfg = Release|anycpu
+		{E87AED65-6D98-4DD9-B4D4-53BF034C8DC8}.Release|anycpu.Build.0 = Release|anycpu
+	EndGlobalSection
+EndGlobal
