@@ -1,14 +1,13 @@
 ﻿using System;
 namespace PointOfSales
 {
-    public class Payment
+    public abstract class Payment
     {
         private int _paymentAmount;
-        public Payment()
+        public Payment(int paymentAmount)
         {
-
+            _paymentAmount = paymentAmount;
         }
-
 
     }
 }

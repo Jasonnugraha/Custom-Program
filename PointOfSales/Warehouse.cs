@@ -7,16 +7,11 @@ namespace PointOfSales
     {
         private static List<Item> _stockItem = new List<Item>();
 
-        //public Warehouse()
-        //{
-        //    _stockItem 
-        //}
-
-        public static string RemoveItem(Item itm)
+        public static string RemoveItem(string itm)
         {
             foreach (Item item in _stockItem)
             {
-                if (item == itm)
+                if (item.Id == itm)
                 {
                     _stockItem.Remove(item);
                     return item.Name + "Has Removed";
@@ -26,11 +21,11 @@ namespace PointOfSales
             return "Item Not Found";
         }
 
-        public static string ReduceItemStock(Item itm, int qty)
+        public static string ReduceItemStock(string itm, int qty)
         {
             foreach(Item item in _stockItem)
             {
-                if (item == itm)
+                if (item.Id == itm)
                 {
                     if(item.Qty >= qty)
                     {
@@ -55,6 +50,18 @@ namespace PointOfSales
                 result += item.Name + item.Qty + Environment.NewLine;
             }
             return result;
+        }
+
+        public static Item FetchItem(string itm)
+        {
+            foreach(Item item in _stockItem)
+            {
+                if (item.Id == itm)
+                {
+                    return item;
+                }
+            }
+            return null;
         }
     }
 }

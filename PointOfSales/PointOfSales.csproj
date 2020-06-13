@@ -44,6 +44,9 @@
     <Compile Include="Buying.cs" />
     <Compile Include="Card.cs" />
     <Compile Include="Selling.cs" />
+    <Compile Include="Customers.cs" />
+    <Compile Include="AllTransactions.cs" />
+    <Compile Include="Cash.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

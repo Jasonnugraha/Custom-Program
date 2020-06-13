@@ -1,17 +1,24 @@
 ﻿<Properties StartupConfiguration="{E87AED65-6D98-4DD9-B4D4-53BF034C8DC8}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="PointOfSales/Selling.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="PointOfSales/Cash.cs">
     <Files>
       <File FileName="PointOfSales/Payment.cs" Line="12" Column="1" />
-      <File FileName="PointOfSales/Card.cs" />
-      <File FileName="PointOfSales/Selling.cs" Line="13" Column="1" />
-      <File FileName="PointOfSales/Transacation.cs" />
+      <File FileName="PointOfSales/Card.cs" Line="4" Column="25" />
+      <File FileName="PointOfSales/Selling.cs" Line="10" Column="70" />
+      <File FileName="PointOfSales/Transacation.cs" Line="1" Column="1" />
+      <File FileName="PointOfSales/Person.cs" Line="6" Column="76" />
+      <File FileName="PointOfSales/Supplier.cs" Line="6" Column="108" />
+      <File FileName="PointOfSales/ShoppingCart.cs" Line="47" Column="27" />
+      <File FileName="PointOfSales/Warehouse.cs" Line="64" Column="25" />
+      <File FileName="PointOfSales/Customers.cs" Line="21" Column="10" />
+      <File FileName="PointOfSales/AllTransactions.cs" Line="8" Column="23" />
+      <File FileName="PointOfSales/Cash.cs" Line="6" Column="22" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="PointOfSales" expanded="True">
             <Node name="PointOfSales" expanded="True">
-              <Node name="Selling.cs" selected="True" />
+              <Node name="Cash.cs" selected="True" />
             </Node>
           </Node>
         </State>
