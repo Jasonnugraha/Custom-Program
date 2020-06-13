@@ -1,7 +1,10 @@
-
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PointOfSales", "PointOfSales\PointOfSales.csproj", "{E87AED65-6D98-4DD9-B4D4-53BF034C8DC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PointOfSalesGUI", "PointOfSalesGUI\PointOfSalesGUI.csproj", "{6349227F-43B5-4070-A4D3-755FCEA14223}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,9 +12,19 @@ Global
 		Release|anycpu = Release|anycpu
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E87AED65-6D98-4DD9-B4D4-53BF034C8DC8}.Debug|anycpu.ActiveCfg = Debug|anycpu
-		{E87AED65-6D98-4DD9-B4D4-53BF034C8DC8}.Debug|anycpu.Build.0 = Debug|anycpu
-		{E87AED65-6D98-4DD9-B4D4-53BF034C8DC8}.Release|anycpu.ActiveCfg = Release|anycpu
-		{E87AED65-6D98-4DD9-B4D4-53BF034C8DC8}.Release|anycpu.Build.0 = Release|anycpu
+		{E87AED65-6D98-4DD9-B4D4-53BF034C8DC8}.Debug|anycpu.ActiveCfg = Debug|Any CPU
+		{E87AED65-6D98-4DD9-B4D4-53BF034C8DC8}.Debug|anycpu.Build.0 = Debug|Any CPU
+		{E87AED65-6D98-4DD9-B4D4-53BF034C8DC8}.Release|anycpu.ActiveCfg = Release|Any CPU
+		{E87AED65-6D98-4DD9-B4D4-53BF034C8DC8}.Release|anycpu.Build.0 = Release|Any CPU
+		{6349227F-43B5-4070-A4D3-755FCEA14223}.Debug|anycpu.ActiveCfg = Debug|Any CPU
+		{6349227F-43B5-4070-A4D3-755FCEA14223}.Debug|anycpu.Build.0 = Debug|Any CPU
+		{6349227F-43B5-4070-A4D3-755FCEA14223}.Release|anycpu.ActiveCfg = Release|Any CPU
+		{6349227F-43B5-4070-A4D3-755FCEA14223}.Release|anycpu.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DE1E1217-E723-41B5-854C-6FBAB5F4D003}
 	EndGlobalSection
 EndGlobal

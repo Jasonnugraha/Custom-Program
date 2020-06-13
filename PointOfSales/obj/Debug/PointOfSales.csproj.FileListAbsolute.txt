@@ -4,3 +4,8 @@
 /Users/jasonnugraha/Study/Swinburne/Project/PointOfSales/PointOfSales/obj/Debug/PointOfSales.csproj.CoreCompileInputs.cache
 /Users/jasonnugraha/Study/Swinburne/Project/PointOfSales/PointOfSales/obj/Debug/PointOfSales.exe
 /Users/jasonnugraha/Study/Swinburne/Project/PointOfSales/PointOfSales/obj/Debug/PointOfSales.pdb
+C:\Users\jason\Documents\C#\Custom-Program\PointOfSales\obj\Debug\PointOfSales.csproj.CoreCompileInputs.cache
+C:\Users\jason\Documents\C#\Custom-Program\PointOfSales\obj\Debug\PointOfSales.pdb
+C:\Users\jason\Documents\C#\Custom-Program\PointOfSales\bin\Debug\PointOfSales.dll
+C:\Users\jason\Documents\C#\Custom-Program\PointOfSales\bin\Debug\PointOfSales.pdb
+C:\Users\jason\Documents\C#\Custom-Program\PointOfSales\obj\Debug\PointOfSales.dll

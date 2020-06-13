@@ -33,7 +33,7 @@ namespace PointOfSales
             }
             else
             {
-                _payment = new Cash();
+              //  _payment = new Cash();
             }
         }
     }

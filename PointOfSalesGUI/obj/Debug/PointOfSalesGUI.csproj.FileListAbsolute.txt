@@ -1,0 +1,15 @@
+C:\Users\jason\Documents\C#\Custom-Program\PointOfSalesGUI\bin\Debug\PointOfSalesGUI.exe.config
+C:\Users\jason\Documents\C#\Custom-Program\PointOfSalesGUI\bin\Debug\PointOfSalesGUI.exe
+C:\Users\jason\Documents\C#\Custom-Program\PointOfSalesGUI\bin\Debug\PointOfSalesGUI.pdb
+C:\Users\jason\Documents\C#\Custom-Program\PointOfSalesGUI\bin\Debug\PointOfSales.dll
+C:\Users\jason\Documents\C#\Custom-Program\PointOfSalesGUI\bin\Debug\PointOfSales.pdb
+C:\Users\jason\Documents\C#\Custom-Program\PointOfSalesGUI\obj\Debug\PointOfSalesGUI.csprojAssemblyReference.cache
+C:\Users\jason\Documents\C#\Custom-Program\PointOfSalesGUI\obj\Debug\PointOfSalesGUI.Properties.Resources.resources
+C:\Users\jason\Documents\C#\Custom-Program\PointOfSalesGUI\obj\Debug\PointOfSalesGUI.csproj.GenerateResource.cache
+C:\Users\jason\Documents\C#\Custom-Program\PointOfSalesGUI\obj\Debug\PointOfSalesGUI.csproj.CoreCompileInputs.cache
+C:\Users\jason\Documents\C#\Custom-Program\PointOfSalesGUI\obj\Debug\PointOfSalesGUI.csproj.CopyComplete
+C:\Users\jason\Documents\C#\Custom-Program\PointOfSalesGUI\obj\Debug\PointOfSalesGUI.exe
+C:\Users\jason\Documents\C#\Custom-Program\PointOfSalesGUI\obj\Debug\PointOfSalesGUI.pdb
+C:\Users\jason\Documents\C#\Custom-Program\PointOfSalesGUI\obj\Debug\PointOfSalesGUI.Forms.DashBoard.resources
+C:\Users\jason\Documents\C#\Custom-Program\PointOfSalesGUI\obj\Debug\PointOfSalesGUI.Forms.UserControlStock.resources
+C:\Users\jason\Documents\C#\Custom-Program\PointOfSalesGUI\obj\Debug\PointOfSalesGUI.Forms.UserControlCart.resources

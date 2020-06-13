@@ -63,5 +63,18 @@ namespace PointOfSales
             }
             return null;
         }
+
+        public static void AddItem(Item item)
+        {
+            _stockItem.Add(item);
+        }
+
+        public static List<Item> Stocks
+        {
+            get
+            {
+                return _stockItem;
+            }
+        }
     }
 }
