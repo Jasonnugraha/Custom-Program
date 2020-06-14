@@ -30,12 +30,12 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DashBoard));
             this.panel = new System.Windows.Forms.Panel();
+            this.Position = new System.Windows.Forms.Label();
             this.btnBack = new System.Windows.Forms.Button();
             this.btnPower = new System.Windows.Forms.Button();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.backgroundWorker2 = new System.ComponentModel.BackgroundWorker();
             this.panelController = new System.Windows.Forms.Panel();
-            this.Position = new System.Windows.Forms.Label();
             this.panel.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -48,8 +48,20 @@
             this.panel.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel.Location = new System.Drawing.Point(0, 0);
             this.panel.Name = "panel";
-            this.panel.Size = new System.Drawing.Size(800, 82);
+            this.panel.Size = new System.Drawing.Size(1280, 82);
             this.panel.TabIndex = 0;
+            // 
+            // Position
+            // 
+            this.Position.AutoSize = true;
+            this.Position.Font = new System.Drawing.Font("Verdana", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Position.ForeColor = System.Drawing.Color.White;
+            this.Position.Location = new System.Drawing.Point(568, 21);
+            this.Position.Name = "Position";
+            this.Position.Size = new System.Drawing.Size(104, 32);
+            this.Position.TabIndex = 7;
+            this.Position.Text = "Home";
+            this.Position.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // btnBack
             // 
@@ -74,7 +86,7 @@
             this.btnPower.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPower.ForeColor = System.Drawing.Color.White;
             this.btnPower.Image = ((System.Drawing.Image)(resources.GetObject("btnPower.Image")));
-            this.btnPower.Location = new System.Drawing.Point(692, 1);
+            this.btnPower.Location = new System.Drawing.Point(1172, 1);
             this.btnPower.Name = "btnPower";
             this.btnPower.Size = new System.Drawing.Size(108, 81);
             this.btnPower.TabIndex = 5;
@@ -86,27 +98,15 @@
             this.panelController.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelController.Location = new System.Drawing.Point(0, 0);
             this.panelController.Name = "panelController";
-            this.panelController.Size = new System.Drawing.Size(800, 600);
+            this.panelController.Size = new System.Drawing.Size(1280, 720);
             this.panelController.TabIndex = 5;
-            // 
-            // Position
-            // 
-            this.Position.AutoSize = true;
-            this.Position.Font = new System.Drawing.Font("Verdana", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Position.ForeColor = System.Drawing.Color.White;
-            this.Position.Location = new System.Drawing.Point(330, 22);
-            this.Position.Name = "Position";
-            this.Position.Size = new System.Drawing.Size(104, 32);
-            this.Position.TabIndex = 7;
-            this.Position.Text = "Home";
-            this.Position.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // DashBoard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(255)))), ((int)(((byte)(235)))));
-            this.ClientSize = new System.Drawing.Size(800, 600);
+            this.ClientSize = new System.Drawing.Size(1280, 720);
             this.Controls.Add(this.panel);
             this.Controls.Add(this.panelController);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;

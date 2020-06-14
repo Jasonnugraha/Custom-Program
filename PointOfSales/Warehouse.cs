@@ -6,7 +6,6 @@ namespace PointOfSales
 {
     public static class Warehouse
     {
-        //private static List<Item> _stockItem = new List<Item>();
         private static BindingList<Item> _stockItem = new BindingList<Item>();
 
         public static string RemoveItem(string itm)
@@ -44,19 +43,21 @@ namespace PointOfSales
             return "Item not found";
         }
 
-        public static string FetchItemStock()
-        {
-            string result = "";
-            foreach(Item item in _stockItem)
-            {
-                result += item.Name + item.Qty + Environment.NewLine;
-            }
-            return result;
-        }
-
         public static Item FetchItem(string itm)
         {
             foreach(Item item in _stockItem)
+            {
+                if (item.Id == itm)
+                {
+                    return item;
+                }
+            }
+            return null;
+        }
+
+        public static Item FetchAnItem(string itm)
+        {
+            foreach (Item item in _stockItem)
             {
                 if (item.Id == itm)
                 {

@@ -1,14 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
+
 namespace PointOfSales
 {
     public class ShoppingCart
     {
         private int _totalPrice;
-        private List<Item> _shoppingList;
+        private BindingList<Item> _shoppingList;
         public ShoppingCart()
         {
-            _shoppingList = new List<Item>();
+            _shoppingList = new BindingList<Item>();
         }
 
         public void AddToCart(string id)
@@ -29,7 +31,12 @@ namespace PointOfSales
             return "Item is not found";
         }
 
-        public List<Item> ShoppingList
+        public void AddCopy(Item item)
+        {
+            _shoppingList.Add(item);
+        }
+
+        public BindingList<Item> ShoppingList
         {
             get
             {
@@ -37,14 +44,15 @@ namespace PointOfSales
             }
         }
 
+
+
         public int GetTotalPrice()
         {
-            int result = 0;
             foreach(Item item in _shoppingList)
             {
-                result += (item.Qty * item.Price);
+                _totalPrice += (item.Qty * item.Price);
             }
-            return result;
+            return _totalPrice;
         }
     }
 }

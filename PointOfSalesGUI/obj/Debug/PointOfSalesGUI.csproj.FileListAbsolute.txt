@@ -16,3 +16,4 @@ C:\Users\jason\Documents\C#\Custom-Program\PointOfSalesGUI\obj\Debug\PointOfSale
 C:\Users\jason\Documents\C#\Custom-Program\PointOfSalesGUI\obj\Debug\PointOfSalesGUI.Forms.UCCart.resources
 C:\Users\jason\Documents\C#\Custom-Program\PointOfSalesGUI\obj\Debug\PointOfSalesGUI.Forms.UCCust.resources
 C:\Users\jason\Documents\C#\Custom-Program\PointOfSalesGUI\obj\Debug\PointOfSalesGUI.Forms.UCTrans.resources
+C:\Users\jason\Documents\C#\Custom-Program\PointOfSalesGUI\obj\Debug\PointOfSalesGUI.Forms.UCFinalize.resources

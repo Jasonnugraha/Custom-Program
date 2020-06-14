@@ -42,6 +42,7 @@ namespace PointOfSalesGUI.Forms
             btn.FlatStyle = FlatStyle.Flat;
             btn.UseColumnTextForButtonValue = true;
             dataGridViewCust.Columns.Add(btn);
+            dataGridViewCust.Columns[4].Visible = false;
 
            
             

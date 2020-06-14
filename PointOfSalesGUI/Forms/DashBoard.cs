@@ -79,7 +79,6 @@ namespace PointOfSalesGUI.Forms
         public DashBoard()
         {
             InitializeComponent();
-            //userControlStock1.Hide();
         }
         
         private void DashBoard_Load(object sender, EventArgs e)

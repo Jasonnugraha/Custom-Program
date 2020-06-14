@@ -68,6 +68,12 @@
     <Compile Include="Forms\UCCust.Designer.cs">
       <DependentUpon>UCCust.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\UCFinalize.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\UCFinalize.Designer.cs">
+      <DependentUpon>UCFinalize.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\UCHome.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -96,6 +102,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\UCCust.resx">
       <DependentUpon>UCCust.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\UCFinalize.resx">
+      <DependentUpon>UCFinalize.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\UCHome.resx">
       <DependentUpon>UCHome.cs</DependentUpon>

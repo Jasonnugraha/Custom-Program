@@ -18,6 +18,11 @@ namespace PointOfSales
         public int Qty { get; set; }
         public int Price { get; set; }
 
+        public Item ShallowCopy()
+        {
+            return (Item)this.MemberwiseClone();
+        }
+
 
     }
 }

@@ -44,9 +44,9 @@
             this.btnCust.ForeColor = System.Drawing.Color.White;
             this.btnCust.Image = ((System.Drawing.Image)(resources.GetObject("btnCust.Image")));
             this.btnCust.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnCust.Location = new System.Drawing.Point(218, 350);
+            this.btnCust.Location = new System.Drawing.Point(427, 487);
             this.btnCust.Name = "btnCust";
-            this.btnCust.Size = new System.Drawing.Size(180, 132);
+            this.btnCust.Size = new System.Drawing.Size(292, 157);
             this.btnCust.TabIndex = 8;
             this.btnCust.Text = "Customers";
             this.btnCust.UseVisualStyleBackColor = false;
@@ -61,9 +61,9 @@
             this.btnTrans.ForeColor = System.Drawing.Color.White;
             this.btnTrans.Image = ((System.Drawing.Image)(resources.GetObject("btnTrans.Image")));
             this.btnTrans.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnTrans.Location = new System.Drawing.Point(404, 212);
+            this.btnTrans.Location = new System.Drawing.Point(725, 296);
             this.btnTrans.Name = "btnTrans";
-            this.btnTrans.Size = new System.Drawing.Size(178, 270);
+            this.btnTrans.Size = new System.Drawing.Size(225, 348);
             this.btnTrans.TabIndex = 7;
             this.btnTrans.Text = "Transactions";
             this.btnTrans.UseVisualStyleBackColor = false;
@@ -78,9 +78,9 @@
             this.btnStock.ForeColor = System.Drawing.Color.White;
             this.btnStock.Image = ((System.Drawing.Image)(resources.GetObject("btnStock.Image")));
             this.btnStock.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnStock.Location = new System.Drawing.Point(218, 212);
+            this.btnStock.Location = new System.Drawing.Point(427, 296);
             this.btnStock.Name = "btnStock";
-            this.btnStock.Size = new System.Drawing.Size(180, 132);
+            this.btnStock.Size = new System.Drawing.Size(292, 185);
             this.btnStock.TabIndex = 6;
             this.btnStock.Text = "Warehouse";
             this.btnStock.UseVisualStyleBackColor = false;
@@ -95,9 +95,9 @@
             this.btnCart.ForeColor = System.Drawing.Color.White;
             this.btnCart.Image = ((System.Drawing.Image)(resources.GetObject("btnCart.Image")));
             this.btnCart.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnCart.Location = new System.Drawing.Point(218, 118);
+            this.btnCart.Location = new System.Drawing.Point(427, 126);
             this.btnCart.Name = "btnCart";
-            this.btnCart.Size = new System.Drawing.Size(364, 88);
+            this.btnCart.Size = new System.Drawing.Size(523, 164);
             this.btnCart.TabIndex = 5;
             this.btnCart.Text = "     Shopping Cart";
             this.btnCart.UseVisualStyleBackColor = false;
@@ -113,7 +113,7 @@
             this.Controls.Add(this.btnStock);
             this.Controls.Add(this.btnCart);
             this.Name = "UCHome";
-            this.Size = new System.Drawing.Size(800, 600);
+            this.Size = new System.Drawing.Size(1280, 720);
             this.ResumeLayout(false);
 
         }

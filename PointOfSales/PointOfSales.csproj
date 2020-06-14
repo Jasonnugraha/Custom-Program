@@ -43,10 +43,8 @@
     <Compile Include="Warehouse.cs" />
     <Compile Include="ShoppingCart.cs" />
     <Compile Include="Payment.cs" />
-    <Compile Include="Transacation.cs" />
-    <Compile Include="Buying.cs" />
     <Compile Include="Card.cs" />
-    <Compile Include="Selling.cs" />
+    <Compile Include="Transaction.cs" />
     <Compile Include="Customers.cs" />
     <Compile Include="AllTransactions.cs" />
     <Compile Include="Cash.cs" />
