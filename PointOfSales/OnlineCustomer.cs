@@ -6,7 +6,7 @@ namespace PointOfSales
         private DateTime _estimatedTime;
         private ShoppingCart _shoppingCart;
 
-        public OnlineCustomer(string name, string address, string phone) : base(name, address, phone, "online")
+        public OnlineCustomer(string name, string address, string phone) : base(name, address, phone, "Online Customer")
         {
 
         }

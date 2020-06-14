@@ -1,11 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 
 namespace PointOfSales
 {
     public static class Customers
     {
-        private static List<Person> _listOfCustomers = new List<Person>();
+        private static BindingList<Person> _listOfCustomers = new BindingList<Person>();
 
         public static void AddCustomer(Person person)
         {
@@ -17,7 +18,7 @@ namespace PointOfSales
             _listOfCustomers.Remove(person);
         }
 
-        public static List<Person> GetCustomers
+        public static BindingList<Person> GetCustomers
         {
             get
             {

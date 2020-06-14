@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace PointOfSalesGUI.Forms
 {
-    public partial class UserControlCart : UserControl
+    public partial class UCTrans : UserControl
     {
-        public UserControlCart()
+        public UCTrans()
         {
             InitializeComponent();
         }

@@ -7,17 +7,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using PointOfSales;
 
 namespace PointOfSalesGUI.Forms
 {
-    public partial class UserControlStock : UserControl
+    public partial class UCCart : UserControl
     {
-        public UserControlStock()
+        public UCCart()
         {
             InitializeComponent();
         }
-
-        
     }
 }

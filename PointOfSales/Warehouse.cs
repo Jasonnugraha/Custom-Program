@@ -1,11 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 
 namespace PointOfSales
 {
     public static class Warehouse
     {
-        private static List<Item> _stockItem = new List<Item>();
+        //private static List<Item> _stockItem = new List<Item>();
+        private static BindingList<Item> _stockItem = new BindingList<Item>();
 
         public static string RemoveItem(string itm)
         {
@@ -69,7 +71,7 @@ namespace PointOfSales
             _stockItem.Add(item);
         }
 
-        public static List<Item> Stocks
+        public static BindingList<Item> Stocks
         {
             get
             {

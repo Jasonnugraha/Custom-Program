@@ -36,6 +36,7 @@
     <StartupObject>PointOfSalesGUI.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -55,28 +56,55 @@
     <Compile Include="Forms\DashBoard.Designer.cs">
       <DependentUpon>DashBoard.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\UserControlCart.cs">
+    <Compile Include="Forms\UCCart.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Forms\UserControlCart.Designer.cs">
-      <DependentUpon>UserControlCart.cs</DependentUpon>
+    <Compile Include="Forms\UCCart.Designer.cs">
+      <DependentUpon>UCCart.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\UserControlStock.cs">
+    <Compile Include="Forms\UCCust.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Forms\UserControlStock.Designer.cs">
-      <DependentUpon>UserControlStock.cs</DependentUpon>
+    <Compile Include="Forms\UCCust.Designer.cs">
+      <DependentUpon>UCCust.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\UCHome.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\UCHome.Designer.cs">
+      <DependentUpon>UCHome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\UCStock.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\UCStock.Designer.cs">
+      <DependentUpon>UCStock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\UCTrans.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\UCTrans.Designer.cs">
+      <DependentUpon>UCTrans.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Forms\DashBoard.resx">
       <DependentUpon>DashBoard.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\UserControlCart.resx">
-      <DependentUpon>UserControlCart.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\UCCart.resx">
+      <DependentUpon>UCCart.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\UserControlStock.resx">
-      <DependentUpon>UserControlStock.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\UCCust.resx">
+      <DependentUpon>UCCust.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\UCHome.resx">
+      <DependentUpon>UCHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\UCStock.resx">
+      <DependentUpon>UCStock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\UCTrans.resx">
+      <DependentUpon>UCTrans.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -87,7 +115,6 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <None Include="Properties\DataSources\PointOfSales.Warehouse.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

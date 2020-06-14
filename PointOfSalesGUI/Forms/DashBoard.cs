@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using PointOfSales;
 
 namespace PointOfSalesGUI.Forms
 {
@@ -30,11 +31,11 @@ namespace PointOfSalesGUI.Forms
         {
             get
             {
-                return panel;
+                return panelController;
             }
             set
             {
-                panel = value;
+                panelController = value;
             }
         }
         
@@ -49,28 +50,54 @@ namespace PointOfSalesGUI.Forms
                 btnBack = value;
             }
         }
+
+        public Panel topPanel
+        {
+            get
+            {
+                return panel;
+            }
+            set
+            {
+                panel = value;
+            }
+        }
+
+        public Label topLabel
+        {
+            get
+            {
+                return Position;
+            }
+            set
+            {
+                Position = value;
+            }
+        }
+
         
         public DashBoard()
         {
             InitializeComponent();
-            userControlStock1.Hide();
+            //userControlStock1.Hide();
+        }
+        
+        private void DashBoard_Load(object sender, EventArgs e)
+        {
+            btnBack.Visible = false;
+            dashBoard = this;
+
+            UCHome uCHome = new UCHome();
+            uCHome.Dock = DockStyle.Fill;
+            panelController.Controls.Add(uCHome);
+
         }
 
-        private void btnCust_Click(object sender, EventArgs e)
+        private void btnBack_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void btnStock_Click(object sender, EventArgs e)
-        {
-            userControlStock1.Show();
-            userControlStock1.BringToFront();
-            btnBack.Visible = true;
-        }
-
-        private void btnTrans_Click(object sender, EventArgs e)
-        {
-
+            panelController.Controls["UCHome"].BringToFront();
+            btnBack.Visible = false;
+            topLabel.Text = "Home";
         }
 
         private void btnPower_Click(object sender, EventArgs e)
@@ -78,31 +105,5 @@ namespace PointOfSalesGUI.Forms
             Application.Exit();
         }
 
-        private void btnCart_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void DashBoard_Load(object sender, EventArgs e)
-        {
-            btnBack.Visible = false;
-            dashBoard = this;
-
-            UserControlStock userControlStock = new UserControlStock();
-            //userControlStock.Dock = DockStyle.Fill;
-            //panelController.Controls.Add(userControlStock);
-        }
-
-        private void btnBack_Click(object sender, EventArgs e)
-        {
-            //panelController.Controls["userControlStock"].BringToFront();
-            btnBack.Visible = false;
-            userControlStock1.Hide();
-        }
-
-        private void userControlStock1_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }

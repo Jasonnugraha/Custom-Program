@@ -19,17 +19,26 @@ namespace PointOfSalesGUI
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new DashBoard());
-
             dataSeed();
 
+            Application.Run(new DashBoard());
             
         }
 
         public static void dataSeed()
         {
             Item Sugar = new Item("sugar", "White Sugar", "A White Sugar", 10, 10);
+            Item Flour = new Item("Flour", "White Flour", "A White Flour", 20, 5);
+
+            Person Jason = new OnlineCustomer("Jason","Hawthorn East","0477123456");
+            Person Rifky = new OfflineCustomer("Rifky","Hawthorn East","0477123456");
+
+            Customers.AddCustomer(Jason);
+            Customers.AddCustomer(Rifky);
+
             Warehouse.AddItem(Sugar);
+            Warehouse.AddItem(Flour);
+
         }
     }
 }

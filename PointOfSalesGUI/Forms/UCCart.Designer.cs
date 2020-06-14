@@ -1,6 +1,6 @@
 ﻿namespace PointOfSalesGUI.Forms
 {
-    partial class UserControlCart
+    partial class UCCart
     {
         /// <summary> 
         /// Required designer variable.
@@ -30,11 +30,12 @@
         {
             this.SuspendLayout();
             // 
-            // UserControlCart
+            // UCCart
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Name = "UserControlCart";
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(255)))), ((int)(((byte)(235)))));
+            this.Name = "UCCart";
             this.Size = new System.Drawing.Size(800, 600);
             this.ResumeLayout(false);
 

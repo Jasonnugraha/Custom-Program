@@ -11,5 +11,8 @@ C:\Users\jason\Documents\C#\Custom-Program\PointOfSalesGUI\obj\Debug\PointOfSale
 C:\Users\jason\Documents\C#\Custom-Program\PointOfSalesGUI\obj\Debug\PointOfSalesGUI.exe
 C:\Users\jason\Documents\C#\Custom-Program\PointOfSalesGUI\obj\Debug\PointOfSalesGUI.pdb
 C:\Users\jason\Documents\C#\Custom-Program\PointOfSalesGUI\obj\Debug\PointOfSalesGUI.Forms.DashBoard.resources
-C:\Users\jason\Documents\C#\Custom-Program\PointOfSalesGUI\obj\Debug\PointOfSalesGUI.Forms.UserControlStock.resources
-C:\Users\jason\Documents\C#\Custom-Program\PointOfSalesGUI\obj\Debug\PointOfSalesGUI.Forms.UserControlCart.resources
+C:\Users\jason\Documents\C#\Custom-Program\PointOfSalesGUI\obj\Debug\PointOfSalesGUI.Forms.UCStock.resources
+C:\Users\jason\Documents\C#\Custom-Program\PointOfSalesGUI\obj\Debug\PointOfSalesGUI.Forms.UCHome.resources
+C:\Users\jason\Documents\C#\Custom-Program\PointOfSalesGUI\obj\Debug\PointOfSalesGUI.Forms.UCCart.resources
+C:\Users\jason\Documents\C#\Custom-Program\PointOfSalesGUI\obj\Debug\PointOfSalesGUI.Forms.UCCust.resources
+C:\Users\jason\Documents\C#\Custom-Program\PointOfSalesGUI\obj\Debug\PointOfSalesGUI.Forms.UCTrans.resources
