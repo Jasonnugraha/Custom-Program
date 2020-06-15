@@ -48,11 +48,21 @@ namespace PointOfSales
 
         public int GetTotalPrice()
         {
-            foreach(Item item in _shoppingList)
+            foreach (Item item in _shoppingList)
             {
                 _totalPrice += (item.Qty * item.Price);
             }
             return _totalPrice;
         }
+
+        public ShoppingCart shoppingCart
+        {
+            get
+            {
+                return this;
+            }
+
+        }
+
     }
 }

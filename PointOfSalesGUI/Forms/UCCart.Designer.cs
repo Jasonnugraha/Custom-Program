@@ -63,6 +63,9 @@
             this.dataGridViewCart.Size = new System.Drawing.Size(600, 400);
             this.dataGridViewCart.TabIndex = 2;
             this.dataGridViewCart.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewCart_CellContentClick);
+            this.dataGridViewCart.CellValueChanged += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewCart_CellValueChanged);
+            this.dataGridViewCart.CurrentCellDirtyStateChanged += new System.EventHandler(this.dataGridViewCart_CurrentCellDirtyStateChanged);
+            this.dataGridViewCart.SelectionChanged += new System.EventHandler(this.dataGridViewCart_SelectionChanged);
             this.dataGridViewCart.TabIndexChanged += new System.EventHandler(this.CheckInput);
             // 
             // comboBoxCust

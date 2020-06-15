@@ -9,3 +9,4 @@ C:\Users\jason\Documents\C#\Custom-Program\PointOfSales\obj\Debug\PointOfSales.p
 C:\Users\jason\Documents\C#\Custom-Program\PointOfSales\bin\Debug\PointOfSales.dll
 C:\Users\jason\Documents\C#\Custom-Program\PointOfSales\bin\Debug\PointOfSales.pdb
 C:\Users\jason\Documents\C#\Custom-Program\PointOfSales\obj\Debug\PointOfSales.dll
+C:\Users\jason\Documents\C#\Custom-Program\PointOfSales\obj\Debug\PointOfSales.csprojAssemblyReference.cache

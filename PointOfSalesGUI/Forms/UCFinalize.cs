@@ -48,6 +48,9 @@ namespace PointOfSalesGUI.Forms
             DashBoard.Instance.pnlController.Controls["UCHome"].BringToFront();
             DashBoard.Instance.BackButton.Visible = false;
             DashBoard.Instance.topLabel.Text = "Home";
+
+            textBoxResult.Clear();
+            UCCart.Instance.Cart.Clear();
         }
 
         private void UCFinalize_Load(object sender, EventArgs e)

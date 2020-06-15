@@ -40,7 +40,7 @@ namespace PointOfSalesGUI
 
            
 
-            Payment cash = new Cash(10000);
+            Payment cash = new Cash(10000,10000);
 
             ShoppingCart cart = new ShoppingCart();
             cart.AddToCart("sugar");

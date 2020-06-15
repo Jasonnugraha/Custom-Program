@@ -50,6 +50,14 @@ namespace PointOfSales
             }
         }
 
+        public string CustomerType
+        {
+            get
+            {
+                return _person.Type;
+            }
+        }
+
         public string Payment_Type
         {
             get

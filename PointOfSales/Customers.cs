@@ -25,5 +25,17 @@ namespace PointOfSales
                 return _listOfCustomers;
             }
         }
+
+        public static Person GetPerson(string name)
+        {
+            foreach (Person person in GetCustomers)
+            {
+                if(person.Name == name)
+                {
+                    return person;
+                }
+            }
+            return null;
+        }
     }
 }
