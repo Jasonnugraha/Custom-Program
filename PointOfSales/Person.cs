@@ -10,6 +10,7 @@ namespace PointOfSales
             Address = address;
             Phone = phone;
             Type = id;
+            _shoppingCart = new ShoppingCart();
         }
 
         public string Name { get; set; }

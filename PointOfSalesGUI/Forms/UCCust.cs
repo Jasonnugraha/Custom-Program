@@ -89,5 +89,24 @@ namespace PointOfSalesGUI.Forms
             else
                 btnAddCust.Enabled = true;
         }
+
+        public void NumericInput(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) &&
+            (e.KeyChar != '.'))
+            {
+                e.Handled = true;
+            }
+
+            if ((e.KeyChar == '.') && ((sender as TextBox).Text.IndexOf('.') > -1))
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void textPhone_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            NumericInput(sender, e);
+        }
     }
 }

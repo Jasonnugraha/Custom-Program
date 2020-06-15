@@ -49,6 +49,7 @@
             this.textPhone.Size = new System.Drawing.Size(146, 21);
             this.textPhone.TabIndex = 27;
             this.textPhone.TextChanged += new System.EventHandler(this.textId_TextChanged);
+            this.textPhone.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textPhone_KeyPress);
             // 
             // textAddress
             // 

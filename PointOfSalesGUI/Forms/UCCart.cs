@@ -15,6 +15,8 @@ namespace PointOfSalesGUI.Forms
     public partial class UCCart : UserControl
     {
         static UCCart uCCart;
+        int count = 0;
+
 
         public static UCCart Instance
         {
@@ -158,11 +160,6 @@ namespace PointOfSalesGUI.Forms
             DashBoard.Instance.BackButton.Visible = false;
             DashBoard.Instance.topLabel.Text = "Invoice";
 
-            foreach (Item item in cart)
-            {
-                UCFinalize.Instance.TextBoxResult.Text += item.Name + item.Qty + item.Price + Environment.NewLine;
-            }
-
             CreateNewTrans();
         }
 
@@ -175,9 +172,25 @@ namespace PointOfSalesGUI.Forms
             string custName = comboBoxCust.Text;
             string transId = comboBoxCust.Text;
             transId = transId.Substring(0, 3);
+            count++;
+            transId = transId + count.ToString("000");
 
             string paymentMethod = comboBoxPayment.Text;
-            UCFinalize.Instance.TextBoxResult.Text += transId;
+
+            UCFinalize.Instance.TextBoxResult.Text += "Hi " + custName + Environment.NewLine;
+
+            UCFinalize.Instance.TextBoxResult.Text += "Your Trans id is " + transId + Environment.NewLine;
+
+            UCFinalize.Instance.TextBoxResult.Text += "Listed Item that you buy : " + Environment.NewLine;
+
+            foreach(Item item in cart)
+            {
+                UCFinalize.Instance.TextBoxResult.Text += item.Name + " " + item.Qty + " pcs A$ " + item.Price + Environment.NewLine;
+            }
+
+            UCFinalize.Instance.TextBoxResult.Text += "Total Price " + GetPaymentAmount();
+
+
 
             Payment payment;
 
@@ -198,14 +211,15 @@ namespace PointOfSalesGUI.Forms
             int result = 0;
             foreach(Item item in cart)
             {
-                return result += item.Qty * item.Price;
+                result += (item.Qty * item.Price);
             }
             return result;
         }
 
         private void CheckInput(object sender, EventArgs e)
         {
-            if (comboBoxPayment.SelectedItem == null) 
+
+            if (comboBoxPayment.SelectedItem == null ) 
             {
                 btnCart.Enabled = false;
             }
@@ -223,7 +237,6 @@ namespace PointOfSalesGUI.Forms
 
         private void dataGridViewCart_CellValueChanged(object sender, DataGridViewCellEventArgs e)
         {
-
             if (dataGridViewCart.Columns[e.ColumnIndex].GetType() == typeof(DataGridViewComboBoxColumn))
             {
                 comboboxSelectedValue = dataGridViewCart.Rows[e.RowIndex].Cells[e.ColumnIndex].Value.ToString();

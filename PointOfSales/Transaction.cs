@@ -70,6 +70,14 @@ namespace PointOfSales
             }
         }
 
+        public string TotalTransaction
+        {
+            get
+            {
+                return _payment.PaymentAmount.ToString();
+            }
+        }
+
         public void setPayment(string payment, DateTime expired, string cardnumber)
         {
             if(payment == "card")
