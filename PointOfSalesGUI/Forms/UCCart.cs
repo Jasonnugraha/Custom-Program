@@ -133,7 +133,8 @@ namespace PointOfSalesGUI.Forms
             var senderGrid = (DataGridView)sender;
             if (senderGrid.Columns[e.ColumnIndex] is DataGridViewButtonColumn && e.RowIndex >= 0)
             {
-                    cart.Add(Warehouse.FetchAnItem(senderGrid.Rows[e.RowIndex].Cells["Id"].Value.ToString()).ShallowCopy());
+                cart.Add(Warehouse.FetchAnItem(senderGrid.Rows[e.RowIndex].Cells["Id"].Value.ToString()).ShallowCopy());
+                
             }
         }
 

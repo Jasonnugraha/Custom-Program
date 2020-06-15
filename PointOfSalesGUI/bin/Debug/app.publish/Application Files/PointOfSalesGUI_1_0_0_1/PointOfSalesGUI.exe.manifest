@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="PointOfSalesGUI.exe" version="1.0.0.1" publicKeyToken="d92eecd0fd1843f5" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="PointOfSalesGUI" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="PointOfSalesGUI.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PointOfSales.dll" size="11264">
+      <assemblyIdentity name="PointOfSales" version="1.0.7471.32629" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>mj/NCf0gXbeSYHjIIg9kUcku6rtTIqgpVpUCtT3N/dY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PointOfSalesGUI.exe" size="42976">
+      <assemblyIdentity name="PointOfSalesGUI" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>9Z8p+EH5REVUlvxPl4whcfoEB1Cbr5W4cAvDFV4wkLs=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="PointOfSalesGUI.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=XIAOMI-NOTEBOOK\jason" issuerKeyHash="0218b5c1cb1f3238d016835b8c5d60cbd94b348f" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>UFvcyk+ga6I4Od+0PR5o5NKGBVft1RNPUv65etHPAMA=</DigestValue></Reference></SignedInfo><SignatureValue>I/7CcQ2u779OpB4yPmQZMjlG7mVqYDxob8reTEGOA/mLZNb++fJomMU0KPVti0HleGWUvq9R9lEtzViDOvz1l7v6yEDlQvr/i+h0eMmNIWWc768167rYCTeLDJWLu7uCFsKV2EwZIi5oTp2dRirTiAvQhJGsaV9bBi8bfYEQsgI=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>3QZRRgbICbKVSfdSFPDWrsDFhyJbfxc08AWxrVNhzxthNMm5cjc2a02oL+/gaYnLO/v7N/iXsgkWmz81ZYeZBAz5loT/XiIQxV2gSSaaCFFjK8xvQVuvxOqn2UzM6bl714hfkLEwcTd2F30OYcc6YeaToTetAVK1Myw7iJkGGs0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="c000cfd17ab9fe524f13d5ed570586d2e4681e3db4df3938a26ba04fcadc5b50" Description="" Url=""><as:assemblyIdentity name="PointOfSalesGUI.exe" version="1.0.0.1" publicKeyToken="d92eecd0fd1843f5" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=XIAOMI-NOTEBOOK\jason</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>+6LLae1NDLvem1CC/0pdP1b102NZwRZVkJdkYxD7Ax4=</DigestValue></Reference></SignedInfo><SignatureValue>oYfjcme+tQf0zTji39oYS/7dodSf+tJu11HlQX0zKYPjypQOLW9o/iQ3Fhj1h5Eclxfd1W5Z87V3Z1GJT0XBe7brqJ+957EO7Z80lV8pQG57OFdEqtqqvzziEy0BvfgLM2PFY+eY7aqfwS8tW8Q3hI4NTZ/12wFdTQc5OyK/MwE=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>3QZRRgbICbKVSfdSFPDWrsDFhyJbfxc08AWxrVNhzxthNMm5cjc2a02oL+/gaYnLO/v7N/iXsgkWmz81ZYeZBAz5loT/XiIQxV2gSSaaCFFjK8xvQVuvxOqn2UzM6bl714hfkLEwcTd2F30OYcc6YeaToTetAVK1Myw7iJkGGs0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQZpNVean934lF1xU4jslAHTANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioAWABJAEEATwBNAEkALQBOAE8AVABFAEIATwBPAEsAXABqAGEAcwBvAG4wHhcNMjAwNjE1MTExNzQzWhcNMjEwNjE1MTcxNzQzWjA1MTMwMQYDVQQDHioAWABJAEEATwBNAEkALQBOAE8AVABFAEIATwBPAEsAXABqAGEAcwBvAG4wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAN0GUUYGyAmylUn3UhTw1q7AxYciW38XNPAFsa1TYc8bYTTJuXI3NmtNqC/v4GmJyzv7+zf4l7IJFps/NWWHmQQM+ZaE/14iEMVdoEkmmghRYyvMb0Fbr8Tqp9lMzOm5e9eIX5CxMHE3dhd9DmHHOmHmk6E3rQFStTMsO4iZBhrNAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAHaazEdKDRVhE/mOk3OtATLGSNmz1ZdPe4ju92nfrHgJk/b8BRIXOLye+3+tupz2H3eKS0kkhd/OUQSR0FLgzDEIKPa4NpeWWU8kURKGFMA7vhC9HAj9W8p7jyWarw+U6WI6tstLIvBM3ht8olKaO4vZNKOsPW3VZX7x6HFLzfVw=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
